@@ -1,1 +1,1 @@
-# Terraform-case1-MSdemo
+# terraform-case1-demo

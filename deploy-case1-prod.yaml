@@ -1,0 +1,11 @@
+trigger:
+- none
+
+variables:
+- group: case1_config_prod #passing in variables through this Azure DevOps variable group 
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- template: deploy-case1-base.yaml
